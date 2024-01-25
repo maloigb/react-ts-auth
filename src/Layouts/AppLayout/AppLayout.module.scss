@@ -1,0 +1,28 @@
+@import "../../Styles/variables";
+.AppLayout {
+  height: 100%;
+  width: 100%;
+}
+.AppLayoutMain {
+  display: flex;
+  height: 100%;
+}
+.AppLayoutSide {
+  min-width: 30%;
+  background-color: $primary-color;
+  border-top-right-radius: 5rem;
+}
+.AppLayoutMainContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.AppLayoutContent {
+  flex-grow: 1;
+}
+
+.AppLayoutServiceBlock {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem 0;
+}
