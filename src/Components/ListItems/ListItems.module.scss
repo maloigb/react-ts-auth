@@ -1,0 +1,9 @@
+.ListItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0;
+}
+.ListItem {
+  width: calc(100% / 3);
+  padding: 0 .5rem;
+}
