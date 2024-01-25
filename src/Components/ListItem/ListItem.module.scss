@@ -1,0 +1,18 @@
+@import "../../Styles/variables";
+.ListItem {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  border: 1px solid $primary-color;
+  border-radius: 1rem;
+}
+.ListItemRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.ListItemTerm {
+  font-weight: 500;
+}
