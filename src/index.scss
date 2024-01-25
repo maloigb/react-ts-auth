@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import "Styles/reset.css";
+@import "./Styles/grid.scss";
+@import "./Styles/variables.scss";
+
+body {
+  font: 1rem "Roboto", "Monospace", sans-serif;
+  color: $text-color;
+  background-color: $secondary-color;
+}
