@@ -1,0 +1,13 @@
+.ServiceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.ServiceBlockLanguage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .3rem;
+  cursor: pointer;
+}
