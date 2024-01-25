@@ -1,0 +1,50 @@
+@import "../../Styles/variables";
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.LoginFormHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.LoginFormControls {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.LoginFormTitle {
+  color: $primary-color;
+}
+.LoginFormSubtitle {
+  font-weight: 500;
+}
+.LoginFormButton {
+  padding: .2rem 2rem;
+  border-radius: .7rem;
+}
+.LoginFormField {
+  width: 100%;
+}
+.LoginFormService {
+  padding-top: .3rem;
+  text-decoration: underline;
+  text-underline-offset: .2rem;
+  cursor: pointer;
+  font-size: .8rem;
+}
+.LoginFormFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.LoginFormError {
+  color: $negative-color;
+}
